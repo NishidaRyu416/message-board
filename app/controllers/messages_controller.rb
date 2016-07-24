@@ -1,5 +1,5 @@
 class MessagesController < ApplicationController
-  before_action :set_message, only: [:edit, :edit,:destroy]
+  before_action :set_message, only: [:edit, :update,:destroy]
   
   def index
     @message = Message.new
